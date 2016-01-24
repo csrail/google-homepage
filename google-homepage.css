@@ -1,69 +1,59 @@
 #bartop {
 	height: 30px;
-	background-color: #999;
+	background-color: #fff;
 	display: block;
 
-	margin-top: 8px;
+	margin-top: 14px;
 }
 
-.anchortop {
-	height: 30px; width: 420px;
-	background-color: green;
-	display: inline-block;
-	float: right;
-	position: relative;
-
-}
-
-.anchortop div {
+.anchortopleft {
 	height: 30px; width: 200px;
-	background-color: blue;
+	background-color: #fff;
 	display: inline-block;
 	float: right;
 	position: relative;
-
-	margin: 0px 4px 0 0;
-	border: 1px dashed solid;
-
-	font-size: 13px;
-	font-family: arial, sans-serif;
-	color: #000;
-	text-align: right;
-	line-height: 24px;
-	overflow: hidden;
-#	text-overflow: ellipsis;
-
 }
 
 .textbar div {
-	height: 20px; max-width: 60px;
+	height: 20px; max-width: 100px;
 	white-space: nowrap;
-	background-color: red;
+	background-color: white;
 	display: inline-block;
 	float: right;
 	position: relative;
 
-	margin: 4px 4px 0 0;
+	padding: 0 12px 0 0;
+	margin: 4px 0 0 0;
 	border: 1px dashed solid;
 
-	font-size: 13px;
+	font-size: 12px;
 	font-family: arial, sans-serif;
 	color: #000;
 	text-align: right;
 	line-height: 24px;
 	overflow: hidden;
-#	text-overflow: ellipsis;
+
+	#	text-overflow: ellipsis;
 }
 
-.iconbar div {
-	height: 30px; width: 50px;
-	background-color: purple;
+.anchortopright div {
+	height: 30px; width: 126px;
+	background-color: #fff;
 	display: inline-block;
 	float: right;
 	position: relative;
 
-	padding: 4px;
-	margin: 0px 4px 0 0;
+	margin: 0 14px 0 4px;
+}
+
+.iconbar div {
+	height: 30px; width: 30px;
+	background-color: white;
+	display: inline-block;
+	float: right;
+	position: relative;
+
+	margin: 0px 15px 0 0;
 #	border: 1px dashed solid;
 
 	font-size: 13px;
@@ -75,17 +65,46 @@
 #	text-overflow: ellipsis;
 }
 
-
-
-#.username {
+#appicon {
+	width: 30px; height: 30px;
+	background-image: url("googleicons.png");
+	background-position: -132px -38px;
 	opacity: 0.55;
 }
 
-#.gmailhome {
+#bellicon {
+	width: 20px; height: 20px;
+	background-image: url("googleicons.png");
+	background-position: -194px -21px;
+	background-position: -194px -21px;
+	background-color: #666;
+	border-radius: 50%;
+
+	margin-top: 5px;
+}
+
+#profile {
+	border-radius: 50%;
+}
+
+#username {
+	opacity: 0.55;
+}
+
+#gmailhome {
 	opacity: 0.75;
 }
 
-#.imageshome {
+#imageshome {
 	opacity: 0.75;
+	padding-right: 5px;
 }
 
+.textbar div a {
+	text-decoration: none;
+	color: #000;
+}
+
+.textbar div a:hover {
+	text-decoration: underline;
+}

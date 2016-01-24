@@ -1,0 +1,91 @@
+#bartop {
+	height: 30px;
+	background-color: #999;
+	display: block;
+
+	margin-top: 8px;
+}
+
+.anchortop {
+	height: 30px; width: 420px;
+	background-color: green;
+	display: inline-block;
+	float: right;
+	position: relative;
+
+}
+
+.anchortop div {
+	height: 30px; width: 200px;
+	background-color: blue;
+	display: inline-block;
+	float: right;
+	position: relative;
+
+	margin: 0px 4px 0 0;
+	border: 1px dashed solid;
+
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #000;
+	text-align: right;
+	line-height: 24px;
+	overflow: hidden;
+#	text-overflow: ellipsis;
+
+}
+
+.textbar div {
+	height: 20px; max-width: 60px;
+	white-space: nowrap;
+	background-color: red;
+	display: inline-block;
+	float: right;
+	position: relative;
+
+	margin: 4px 4px 0 0;
+	border: 1px dashed solid;
+
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #000;
+	text-align: right;
+	line-height: 24px;
+	overflow: hidden;
+#	text-overflow: ellipsis;
+}
+
+.iconbar div {
+	height: 30px; width: 50px;
+	background-color: purple;
+	display: inline-block;
+	float: right;
+	position: relative;
+
+	padding: 4px;
+	margin: 0px 4px 0 0;
+#	border: 1px dashed solid;
+
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	color: #000;
+	text-align: right;
+	line-height: 24px;
+	overflow: hidden;
+#	text-overflow: ellipsis;
+}
+
+
+
+#.username {
+	opacity: 0.55;
+}
+
+#.gmailhome {
+	opacity: 0.75;
+}
+
+#.imageshome {
+	opacity: 0.75;
+}
+

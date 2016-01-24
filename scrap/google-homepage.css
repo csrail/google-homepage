@@ -1,0 +1,75 @@
+#bar-top {
+	height: 20px;
+	background-color: #ccc;
+	
+	display: block;
+	position: static;
+	float: right;
+
+	padding: 10px 10px 10px 10px;
+	margin: 10px 5px 0 0;
+	
+	text-align: right;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+}
+
+.profile {
+	border: 1px solid #fff;
+	width: 24px; height: 24px;
+	border-radius: 100%;
+	background-color: red;
+	display: block;
+	float: right;
+}
+
+#center {
+	height: 50px;
+	background-color: #AAAAAA;
+	display: block;
+	position: relative;
+	clear: both;
+	margin-top: 500px;
+
+}
+
+#bar-bot {
+	height: 40px;
+	background-color: #f2f2f2;
+	
+	display: block;
+	position: relative;
+	clear: both;
+
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-color: #222;
+}
+
+#bar-bot .aba {
+	display: inline-block;
+	float: left;
+	margin-left: 27px;
+	padding: 10px 0 4px 0;
+}
+
+#bar-bot .pts {
+	display: inline-block;
+	float: right;
+	margin-right: 27px;
+	padding: 10px 0 4px 0;
+}
+
+#bar-bot div a {
+	text-decoration: none;
+}
+
+#bar-bot div a:hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+
+}

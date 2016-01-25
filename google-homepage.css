@@ -1,5 +1,5 @@
 #centergrid {
-	height: 700px;
+	height: 400px;
 	background-color: #AAA;
 	display: block;
 	margin-top: 15px;
@@ -7,25 +7,24 @@
 
 #centertop {
 	height: 120px;
-	background-color: skyblue;
+	background-color: #fff;
 	display: block;
 }
 
-#centermid {
+#googlebar {
 	height: 100px;
-	background-color: crimson;
+	background-color: #fff;
 	display: block;
 }
 
 .googlecenter {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 
 .googlenz {
 	text-align: center;
-	margin-right: -260px;
+	margin-left: 260px;
 	margin-top: -20px;
 	font-size: 16px;
 	font-family: arial, sans-serif;
@@ -34,8 +33,77 @@
 
 #centerbot {
 	height: 200px;
-	background-color: tomato;
+	background-color: #fff;
 	display: block;
+	position: relative;
+}
+
+#searchbox {
+	height: 160px; max-width: 700px;
+	background-color: #fff;
+	position: relative;
+	margin: auto;
+}
+
+#searchbar {
+	height: 42px;
+	width: 550px;
+	background-color: #fff;
+	padding-top: 5px;
+	margin: auto;
+
+}
+
+.searchbar {
+	width: 540px;
+	height: 30px;
+}
+
+#buttonbox {
+	background-color: #fff;
+	width: 550px; height: 80px;
+	margin: auto;
+}
+
+#buttonbar {
+	width: 250px; height: 50px;
+	background-color: #fff;
+	
+	padding-top: 30px;
+	margin: auto;
+
+}
+
+.searchbuttons input {
+	height: 36px; min-width: 54px;
+	background-color: #f2f2f2;
+	border: 1px solid #c6c6c6;
+	border-radius: 0%;
+
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	color: #757575;
+}
+
+#translationbox {
+	height: 20px;
+	background-color: #fff;
+	display: block;
+}
+
+#translationbar {
+	height: 16px; width: 180px;
+	background-color: #fff;
+	margin: auto;
+
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+#translationbar a {
+	text-decoration: none;
+	color: blue;
 }
 
 #bartop {
@@ -73,7 +141,6 @@
 	line-height: 24px;
 	overflow: hidden;
 
-	#	text-overflow: ellipsis;
 }
 
 .anchortopright div {
@@ -94,7 +161,6 @@
 	position: relative;
 
 	margin: 0px 15px 0 0;
-#	border: 1px dashed solid;
 
 	font-size: 13px;
 	font-family: arial, sans-serif;
@@ -102,7 +168,6 @@
 	text-align: right;
 	line-height: 24px;
 	overflow: hidden;
-#	text-overflow: ellipsis;
 }
 
 #appicon {
@@ -149,3 +214,54 @@
 	text-decoration: underline;
 }
 
+
+
+#bar-bot {
+	height: 40px; width:100%;
+	background-color: #f2f2f2;
+	
+	position: absolute;
+	bottom: 0;
+
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-color: #222;
+
+	opacity: 0.75;
+}
+
+#botleft {
+	height: 40px;
+	background-color: #f2f2f2;
+	display: inline-block;
+	float: left;
+}
+
+#botright {
+	height: 40px;
+	background-color: #f2f2f2;
+	display: inline-block;
+	float: right;	
+}
+
+.aba {
+	display: inline-block;
+	float: left;
+	margin-left: 27px;
+	padding: 10px 0 4px 0;
+}
+
+.pts {
+	display: inline-block;
+	float: right;
+	margin-right: 27px;
+	padding: 10px 0 4px 0;
+}
+
+#bar-bot div a {
+	text-decoration: none;
+}
+
+#bar-bot div a:hover {
+	text-decoration: underline;
+}

@@ -1,3 +1,43 @@
+#centergrid {
+	height: 700px;
+	background-color: #AAA;
+	display: block;
+	margin-top: 15px;
+}
+
+#centertop {
+	height: 120px;
+	background-color: skyblue;
+	display: block;
+}
+
+#centermid {
+	height: 100px;
+	background-color: crimson;
+	display: block;
+}
+
+.googlecenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.googlenz {
+	text-align: center;
+	margin-right: -260px;
+	margin-top: -20px;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+	color: #4285f4;
+}
+
+#centerbot {
+	height: 200px;
+	background-color: tomato;
+	display: block;
+}
+
 #bartop {
 	height: 30px;
 	background-color: #fff;
@@ -108,3 +148,4 @@
 .textbar div a:hover {
 	text-decoration: underline;
 }
+
